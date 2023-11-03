@@ -1,0 +1,84 @@
+/***********CARATTERISTICHE GENERALI CHE VOGLIO DARE AL SITO*******/
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+
+a{
+    
+    text-decoration: none;
+    font-style: italic;
+
+}
+
+
+
+/******PARTE PER IL DIV HEADER=CARATTERISTICHE HEADEAR******/
+
+#header {
+    background-color: rgb(99, 210, 99);
+    
+  
+
+}
+h1{
+    font-size: 36px;
+    margin: 0 0 0 0;
+    text-align: center;
+    padding:  15px 0 0 0;
+    color: white;
+    font-style: normal;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-style: normal;
+}
+
+/******PARTE PER IL DIV content=CARATTERISTICHE HEADEAR******/
+
+#nav {
+    text-align: center;
+    background-color: rgb(86, 179, 86);
+    list-style-type: none;
+
+}
+#nav li{ 
+    
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 8px 6px 8px;
+    
+    
+
+}
+#nav li a {
+    color: azure;
+    
+}
+
+#nav li:hover{
+    background-color: rgb(99, 210, 99);
+}
+
+#content {
+    background-color: azure;
+    width: 600px;
+    margin: 30px auto 30px auto;
+    
+
+}
+
+#content h4{
+    border-bottom: rgb(86, 179, 86) solid 3px;
+
+}
+#content a:hover{
+    text-decoration: underline;
+    color: rgb(198, 53, 234);
+
+}
